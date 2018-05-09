@@ -1,0 +1,87 @@
+body {
+	margin: 0px 0px;
+}
+
+.up3 {
+	width: 1280px;
+	
+}
+nav {
+	width: 1280px;
+	height: 60px;
+	text-align: center;
+	border: 0px solid black;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	font-size: 20px;
+	
+}
+.nov, .sob, .otl {
+	font-family: 'Pacifico', cursive;
+	width: 300px;
+	display: inline-block;
+	border-left: 2px solid white;
+	margin-top: 12px;
+}
+
+.nov p {
+	margin: 0px 0px;
+	transition: transform 0.2s linear;
+}
+
+.nov a {
+	text-decoration: none;
+	color: white;
+}
+
+.nov p:hover {
+	transform: scale(1.4);
+}
+
+.sob p {
+	margin: 0px 0px;
+	transition: transform 0.2s linear;
+}
+
+.sob p:hover {
+	transform: scale(1.4);
+}
+
+.sob a {
+	text-decoration: none;
+	color: white;
+}
+
+.otl p {
+	margin: 0px 0px;
+	transition: transform 0.2s linear;
+}
+
+.otl p:hover {
+	transform: scale(1.4);
+}
+
+.otl a {
+	text-decoration: none;
+	color: white;
+}
+
+.glav {
+	font-family: 'Pacifico', cursive;
+    margin-top: 12px;
+	width: 300px;
+	display: inline-block;
+}
+.glav p:hover {
+	transform: scale(1.4);
+}
+
+.glav p {
+	margin: 0px 0px;
+	transition: transform 0.2s linear;
+}
+
+.glav a {
+	text-decoration: none;
+	color: white;
+}

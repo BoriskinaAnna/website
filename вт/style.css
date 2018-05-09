@@ -1,0 +1,124 @@
+body {
+    background-image: url("main/bg.jpg");
+}
+
+
+.moto {
+	float: left;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+.moto h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+.moto p {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	margin-top: 0px;
+}
+.up {
+	width: 600px;
+	text-align: right;
+	margin: 10px 10px 10px 100px;
+}
+nav {
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: white;
+	text-align: center;
+	
+}
+.logo {
+	width: 270px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.news {
+	width: 200px;
+	margin: 0 10px;
+    transition: transform 0.2s linear;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+}
+.news img {
+	width: 200px;
+
+}
+
+.news p {
+	margin-top: 5px;
+}
+
+.qa {
+	width: 200px;
+	margin: 0 10px;
+	transition: transform 0.2s linear;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+}
+
+.qa img {
+	width: 200px;
+}
+
+.qa p {
+	margin-top: 5px;
+}
+
+.you {
+	width: 200px;
+	margin: 0 10px;
+	transition: transform 0.2s linear;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+}
+
+.you img {
+	width: 200px;
+}
+
+.you p {
+	margin-top: 5px;
+}
+
+.events {
+	width: 200px;
+	margin: 0 10px;
+	transition: transform 0.2s linear;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+}
+
+.events img {
+    width: 200px;
+}
+
+.events p {
+	margin-top: 5px;
+}
+
+.news:hover {
+	transform: scale(1.1);
+}
+
+.you:hover {
+	transform: scale(1.1);
+}
+
+.events:hover {
+	transform: scale(1.1);
+}
+
+.qa:hover {
+	transform: scale(1.1);
+}

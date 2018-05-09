@@ -1,0 +1,97 @@
+
+<main >
+
+    <nav>
+        <div class="topnav">
+            <a href="composition.php">Состав клуба</a>
+            <a href="news.php">Новости</a>
+            <a href="lab2.php">Лаба 2</a>
+            <a href="lab3.php">Лаба 3</a>
+        </div>
+    </nav>
+
+
+    <table>
+        <thead>
+        <td></td>
+        <td></td>
+        <td>И</td>
+        <td>В</td>
+        <td>Н</td>
+        <td>П</td>
+        <td>О</td>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Пари Сен-Жермен(Париж, Франция)</td>
+            <td>11</td>
+            <td>10</td>
+            <td>0</td>
+            <td>1</td>
+            <td>20</td>
+        </tr>
+        <tr">
+        <td>2</td>
+        <td>Фленсбург(Германия)</td>
+        <td>11</td>
+        <td>6</td>
+        <td>3</td>
+        <td>2</td>
+        <td>15</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Веспрем(Веспрем, Венгрия)</td>
+            <td>11</td>
+            <td>6</td>
+            <td>1</td>
+            <td>4</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Киль(Киль, Германия)</td>
+            <td>11</td>
+            <td>6</td>
+            <td>1</td>
+            <td>4</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Виве(Кельце, Польша)</td>
+            <td>11</td>
+            <td>3</td>
+            <td>3</td>
+            <td>5</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>БГК им. Мешкова(Брест, Беларусь)</td>
+            <td>11</td>
+            <td>3</td>
+            <td>2</td>
+            <td>6</td>
+            <td>8</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <video id="movie" src="videos/presentation.mp4" class="video">
+
+    </video>
+
+
+    <script>
+        var v = document.getElementById("movie");
+        v.onclick = function() {
+            if (v.paused) {
+                v.play();
+            } else {
+                v.pause();
+            }
+        };
+    </script>
+</main>

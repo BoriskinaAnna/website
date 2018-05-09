@@ -1,0 +1,22 @@
+body{
+	background: none;
+
+}
+.img{
+	max-width: 100%;
+	display:block;
+	 margin:0 auto;
+
+}
+h4{
+	text-align: center;
+}
+.text{
+
+	 margin-left: 40px;
+
+
+}
+p{
+	margin-bottom: 5px;
+}

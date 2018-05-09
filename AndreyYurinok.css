@@ -1,0 +1,19 @@
+.AndreyYurinok{
+	max-width: 100%;
+	width: 25%;
+	float: left;
+	padding: 20px;
+    
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+table{
+	margin: 100px;
+	float: right;
+	max-width: 100%;
+}
+
+.player_information td{
+	border: 1px ;
+	border-bottom: 1px solid #000;
+
+}

@@ -1,0 +1,25 @@
+.team{
+	max-width: 100%;
+}
+.players_container{
+	display: flex;
+	justify-content: center;
+background: url("store/fon.jpg");
+
+}
+.players{
+	padding: 40px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+	
+
+}
+.player {
+
+}
+.backgroundImage{
+
+}

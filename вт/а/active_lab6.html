@@ -1,0 +1,34 @@
+<main>
+
+   
+
+  
+    <div class="players_container">
+
+        <div class="players" style="background-color: white;">
+            <?php 
+
+
+                $descriptor = fopen('store.txt', 'r');
+                
+                    while (($string = fgets($descriptor)) !== false) {
+                        $name = $string; 
+                        
+                        $price = fgets($descriptor);
+                      
+                        $imageName = fgets($descriptor);
+                        
+                        require "item.html";
+                       
+                    }
+                    fclose($descriptor);
+
+                
+                
+            ?>
+        
+        </div>
+
+    </div>
+
+</main>
